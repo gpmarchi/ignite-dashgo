@@ -29,7 +29,7 @@ export function makeServer() {
     },
 
     seeds(mirageServer) {
-      mirageServer.createList('user', 200);
+      mirageServer.createList('user', 10);
     },
 
     routes() {
